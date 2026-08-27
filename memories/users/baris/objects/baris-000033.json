@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000033",
+  "sequence_no": 33,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "Baris Kuru is an AI Engineer...",
+  "summary": "Baris Kuru is an AI Engineer and Data Scientist with 7+ years of experience, currently working as an AI Engineer at BASF. His expertise lies in developing scala",
+  "content": "Baris Kuru is an AI Engineer and Data Scientist with 7+ years of experience, currently working as an AI Engineer at BASF. His expertise lies in developing scalable, data-driven solutions, including RAG architectures and interactive web apps. Previous key experience includes developing ML pipelines and cloud analytics solutions for renewable energy at Enapter and conducting computational neuroscience research at UKB. Technical stack includes Python, Azure, AWS, and big data technologies. Fluent in German and English.",
+  "memory_type": "long_term",
+  "entity": "professional summary",
+  "status": "active",
+  "created_at": "2026-04-15T16:22:38+00:00",
+  "updated_at": "2026-04-15T16:22:38+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "migration",
+    "saved_by_user_id": "baris",
+    "migrated_from_user_id": "6503433160",
+    "source_memory_id": "6503433160-000003"
+  }
+}

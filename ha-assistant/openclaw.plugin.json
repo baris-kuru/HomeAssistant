@@ -1,0 +1,10 @@
+{
+  "id": "ha-assistant",
+  "name": "Home Assistant",
+  "description": "Memory, weather, notes and reminders for the household",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

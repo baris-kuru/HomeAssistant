@@ -1,0 +1,17 @@
+{
+  "long_term": [
+    "Lives in Ankara, Turkey",
+    "Friend of Baris"
+  ],
+  "short_term": [],
+  "entities": {
+    "ahmet": {
+      "long_term": [
+        "Ahmet lives in Ankara, Turkey",
+        "Friend of Baris",
+        "Interested in lamp design and design in general"
+      ],
+      "short_term": []
+    }
+  }
+}

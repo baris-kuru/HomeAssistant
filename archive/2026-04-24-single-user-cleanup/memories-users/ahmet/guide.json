@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "user_id": "ahmet",
+  "title": "Memory guide for ahmet",
+  "allowed_user_ids": [
+    "ahmet"
+  ],
+  "next_memory_index": 2,
+  "memory_ids": [
+    "ahmet-000001"
+  ],
+  "active_memory_ids": [
+    "ahmet-000001"
+  ],
+  "files_by_id": {
+    "ahmet-000001": "objects/ahmet-000001.json"
+  },
+  "indexes": {
+    "by_entity": {
+      "self": [
+        "ahmet-000001"
+      ]
+    },
+    "by_type": {
+      "long_term": [
+        "ahmet-000001"
+      ]
+    },
+    "by_date": {
+      "2026-04-19": [
+        "ahmet-000001"
+      ]
+    }
+  },
+  "counts": {
+    "total": 1,
+    "active": 1,
+    "deleted": 0
+  },
+  "updated_at": "2026-04-23T20:07:27+00:00"
+}

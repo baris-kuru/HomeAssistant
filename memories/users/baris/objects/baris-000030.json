@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000030",
+  "sequence_no": 30,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "I prefer tea in the evening",
+  "summary": "I prefer tea in the evening",
+  "content": "I prefer tea in the evening",
+  "memory_type": "long_term",
+  "entity": "self",
+  "status": "active",
+  "created_at": "2026-04-15T16:22:38+00:00",
+  "updated_at": "2026-04-15T16:22:38+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "migration",
+    "saved_by_user_id": "baris",
+    "migrated_from_user_id": "cani",
+    "source_memory_id": "cani-000001"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "habits": {
+    "gym": {
+      "description": "Regular gym workouts",
+      "frequency": "daily",
+      "created": "2026-04-15"
+    }
+  },
+  "logs": []
+}

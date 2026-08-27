@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>ai.homeassistant.llama-swap</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/bariskuru/Projects/HomeAssistant/scripts/start_llama_swap.sh</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/bariskuru/Projects/HomeAssistant/runtime/llama-swap/stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/bariskuru/Projects/HomeAssistant/runtime/llama-swap/stderr.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key>
+    <string>/Users/bariskuru</string>
+  </dict>
+</dict>
+</plist>

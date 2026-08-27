@@ -1,0 +1,169 @@
+{
+  "schema_version": 2,
+  "user_id": "fabi",
+  "title": "Memory guide for fabi",
+  "allowed_user_ids": [
+    "fabi"
+  ],
+  "next_memory_index": 22,
+  "memory_ids": [
+    "fabi-000001",
+    "fabi-000002",
+    "fabi-000003",
+    "fabi-000004",
+    "fabi-000005",
+    "fabi-000006",
+    "fabi-000007",
+    "fabi-000008",
+    "fabi-000009",
+    "fabi-000010",
+    "fabi-000011",
+    "fabi-000012",
+    "fabi-000013",
+    "fabi-000014",
+    "fabi-000015",
+    "fabi-000016",
+    "fabi-000017",
+    "fabi-000018",
+    "fabi-000019",
+    "fabi-000020",
+    "fabi-000021"
+  ],
+  "active_memory_ids": [
+    "fabi-000001",
+    "fabi-000002",
+    "fabi-000003",
+    "fabi-000004",
+    "fabi-000005",
+    "fabi-000006",
+    "fabi-000007",
+    "fabi-000008",
+    "fabi-000009",
+    "fabi-000010",
+    "fabi-000011",
+    "fabi-000012",
+    "fabi-000013",
+    "fabi-000014",
+    "fabi-000015",
+    "fabi-000016",
+    "fabi-000017",
+    "fabi-000018",
+    "fabi-000019",
+    "fabi-000020",
+    "fabi-000021"
+  ],
+  "files_by_id": {
+    "fabi-000001": "objects/fabi-000001.json",
+    "fabi-000002": "objects/fabi-000002.json",
+    "fabi-000003": "objects/fabi-000003.json",
+    "fabi-000004": "objects/fabi-000004.json",
+    "fabi-000005": "objects/fabi-000005.json",
+    "fabi-000006": "objects/fabi-000006.json",
+    "fabi-000007": "objects/fabi-000007.json",
+    "fabi-000008": "objects/fabi-000008.json",
+    "fabi-000009": "objects/fabi-000009.json",
+    "fabi-000010": "objects/fabi-000010.json",
+    "fabi-000011": "objects/fabi-000011.json",
+    "fabi-000012": "objects/fabi-000012.json",
+    "fabi-000013": "objects/fabi-000013.json",
+    "fabi-000014": "objects/fabi-000014.json",
+    "fabi-000015": "objects/fabi-000015.json",
+    "fabi-000016": "objects/fabi-000016.json",
+    "fabi-000017": "objects/fabi-000017.json",
+    "fabi-000018": "objects/fabi-000018.json",
+    "fabi-000019": "objects/fabi-000019.json",
+    "fabi-000020": "objects/fabi-000020.json",
+    "fabi-000021": "objects/fabi-000021.json"
+  },
+  "indexes": {
+    "by_entity": {
+      "self": [
+        "fabi-000001",
+        "fabi-000002"
+      ],
+      "nandi": [
+        "fabi-000003",
+        "fabi-000004",
+        "fabi-000005",
+        "fabi-000006",
+        "fabi-000007"
+      ],
+      "pixie": [
+        "fabi-000008",
+        "fabi-000009",
+        "fabi-000010"
+      ],
+      "fabi": [
+        "fabi-000011",
+        "fabi-000012",
+        "fabi-000013",
+        "fabi-000014",
+        "fabi-000015",
+        "fabi-000016",
+        "fabi-000017",
+        "fabi-000018",
+        "fabi-000019",
+        "fabi-000020"
+      ],
+      "baris": [
+        "fabi-000021"
+      ]
+    },
+    "by_type": {
+      "long_term": [
+        "fabi-000001",
+        "fabi-000002",
+        "fabi-000003",
+        "fabi-000004",
+        "fabi-000005",
+        "fabi-000006",
+        "fabi-000007",
+        "fabi-000008",
+        "fabi-000009",
+        "fabi-000010",
+        "fabi-000011",
+        "fabi-000012",
+        "fabi-000013",
+        "fabi-000014",
+        "fabi-000015",
+        "fabi-000016",
+        "fabi-000017",
+        "fabi-000018",
+        "fabi-000019",
+        "fabi-000020",
+        "fabi-000021"
+      ]
+    },
+    "by_date": {
+      "2026-04-15": [
+        "fabi-000001",
+        "fabi-000002",
+        "fabi-000003",
+        "fabi-000004",
+        "fabi-000005",
+        "fabi-000006",
+        "fabi-000007",
+        "fabi-000008",
+        "fabi-000009",
+        "fabi-000010",
+        "fabi-000011",
+        "fabi-000012",
+        "fabi-000013",
+        "fabi-000014",
+        "fabi-000015",
+        "fabi-000016",
+        "fabi-000017",
+        "fabi-000018",
+        "fabi-000019",
+        "fabi-000020",
+        "fabi-000021"
+      ]
+    }
+  },
+  "counts": {
+    "total": 21,
+    "active": 21,
+    "deleted": 0
+  },
+  "updated_at": "2026-04-17T15:47:05+00:00"
+}

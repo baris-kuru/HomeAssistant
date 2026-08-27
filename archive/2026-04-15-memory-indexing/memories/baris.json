@@ -1,0 +1,56 @@
+{
+  "long_term": [
+    "Prefers cooler temperatures around 20°C",
+    "Night owl, usually stays up past midnight",
+    "Likes bedroom light dim in the evenings",
+    "Lives primarily in Berlin, girlfriend Fabi lives in Bonn — travels between both cities regularly",
+    "From Ankara, Turkey — flies back often for family visits",
+    "Goes to gym regularly — fitness is part of routine",
+    "Has IBS (irritable bowel syndrome) — wants to track food intake with photos to monitor triggers"
+  ],
+  "short_term": [],
+  "entities": {
+    "pixie": {
+      "long_term": [
+        "British Shorthair female, born April 2024, twin sister of Nandi",
+        "More energetic and intelligent of the two",
+        "Quick learner, figures things out fast",
+        "Pixie and Nandi like Fabi more because she has lived with them longer",
+        "Nandi and Pixie's exact birthday is April 9th, 2024"
+      ],
+      "short_term": []
+    },
+    "nandi": {
+      "long_term": [
+        "British Shorthair female, born April 2024, twin sister of Pixie",
+        "Larger and more timid, but very affectionate when comfortable",
+        "Loves being petted",
+        "Pixie and Nandi like Fabi more because she has lived with them longer",
+        "Nandi and Pixie's exact birthday is April 9th, 2024"
+      ],
+      "short_term": []
+    },
+    "baris": {
+      "long_term": [
+        "Baris is an AI engineer at BASF, a chemical company",
+        "Baris develops AI applications using AI models",
+        "Baris built and implemented this home assistant, and likes to update its system prompt",
+        "Fabi is Baris's girlfriend",
+        "Baris partially lives in Berlin in a WG (shared apartment) because he needs to go to the BASF office there sometimes",
+        "Baris visits Fabi a lot in Bonn",
+        "Baris owns a Squier Jaguar guitar (surf green/sonic blue finish) — his first guitar he bought himself, owned for 3+ years (since ~2023). This is the guitar he plays in Bonn.",
+        "Loves to travel. Has visited Egypt, Portugal, Greece, Morocco in recent years.",
+        "Originally from Turkey, lives in Germany, and is about to get German citizenship.",
+        "Visited South Korea for 11 days (around early 2026). Went to Seoul, Busan, and other places. Has friends there.",
+        "Ege is a friend of Baris's from Turkey. His birthday is April 4th."
+      ],
+      "short_term": []
+    },
+    "fabi": {
+      "long_term": [
+        "Fabi is pronounced like \"Phobie\""
+      ],
+      "short_term": []
+    }
+  }
+}

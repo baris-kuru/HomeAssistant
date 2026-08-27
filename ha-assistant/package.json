@@ -1,0 +1,21 @@
+{
+  "name": "ha-assistant",
+  "version": "1.0.0",
+  "description": "Home assistant skills: memory, weather, notes, reminders",
+  "type": "module",
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "domains",
+    "shared.ts",
+    "openclaw.plugin.json"
+  ],
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "dependencies": {
+    "tsdav": "^2.1.8"
+  }
+}

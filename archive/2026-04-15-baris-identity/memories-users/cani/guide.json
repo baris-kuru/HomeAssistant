@@ -1,0 +1,41 @@
+{
+  "schema_version": 2,
+  "user_id": "cani",
+  "title": "Memory guide for cani",
+  "allowed_user_ids": [
+    "cani"
+  ],
+  "next_memory_index": 2,
+  "memory_ids": [
+    "cani-000001"
+  ],
+  "active_memory_ids": [
+    "cani-000001"
+  ],
+  "files_by_id": {
+    "cani-000001": "objects/cani-000001.json"
+  },
+  "indexes": {
+    "by_entity": {
+      "self": [
+        "cani-000001"
+      ]
+    },
+    "by_type": {
+      "long_term": [
+        "cani-000001"
+      ]
+    },
+    "by_date": {
+      "2026-04-15": [
+        "cani-000001"
+      ]
+    }
+  },
+  "counts": {
+    "total": 1,
+    "active": 1,
+    "deleted": 0
+  },
+  "updated_at": "2026-04-15T15:55:29+00:00"
+}

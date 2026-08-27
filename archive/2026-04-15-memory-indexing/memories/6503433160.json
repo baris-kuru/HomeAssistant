@@ -1,0 +1,34 @@
+{
+  "long_term": [],
+  "short_term": [],
+  "entities": {
+    "self-care": {
+      "long_term": [],
+      "short_term": [
+        {
+          "note": "Take care of throat with tea.",
+          "added": "2026-04-14",
+          "expires": "2026-04-21"
+        }
+      ]
+    },
+    "baris kuru": {
+      "long_term": [
+        "Profile Update: I am Baris Kuru, an AI engineer. I live and work in the Bonn/Berlin area. I have connected my iCloud calendar and my short-term self-care note is to use tea for my throat."
+      ],
+      "short_term": []
+    },
+    "professional summary": {
+      "long_term": [
+        "Baris Kuru is an AI Engineer and Data Scientist with 7+ years of experience, currently working as an AI Engineer at BASF. His expertise lies in developing scalable, data-driven solutions, including RAG architectures and interactive web apps. Previous key experience includes developing ML pipelines and cloud analytics solutions for renewable energy at Enapter and conducting computational neuroscience research at UKB. Technical stack includes Python, Azure, AWS, and big data technologies. Fluent in German and English."
+      ],
+      "short_term": []
+    },
+    "travel plans": {
+      "long_term": [
+        "April 30, 2026: Flying from Ankara to Berlin (via Istanbul). Returning to Berlin on May 1st, 2026."
+      ],
+      "short_term": []
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+  "small_model": "openrouter/qwen/qwen3-coder:free",
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 10000
+  },
+  "agent": {
+    "build": {
+      "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+      "temperature": 0.2,
+      "permission": {
+        "task": {
+          "*": "allow"
+        }
+      }
+    },
+    "orchestrator": {
+      "model": "fireworks/accounts/fireworks/models/qwen3p6-plus",
+      "temperature": 0.2,
+      "permission": {
+        "task": {
+          "*": "allow"
+        }
+      }
+    }
+  }
+}

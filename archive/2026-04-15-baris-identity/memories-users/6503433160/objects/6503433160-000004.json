@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "6503433160-000004",
+  "sequence_no": 4,
+  "user_id": "6503433160",
+  "owner_user_id": "6503433160",
+  "allowed_user_ids": [
+    "6503433160"
+  ],
+  "title": "April 30, 2026: Flying from Ankara...",
+  "summary": "April 30, 2026: Flying from Ankara to Berlin (via Istanbul). Returning to Berlin on May 1st, 2026.",
+  "content": "April 30, 2026: Flying from Ankara to Berlin (via Istanbul). Returning to Berlin on May 1st, 2026.",
+  "memory_type": "long_term",
+  "entity": "travel plans",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "6503433160"
+  }
+}

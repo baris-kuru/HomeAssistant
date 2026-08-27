@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Persona</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Login Screen -->
+  <div class="login-screen" id="loginScreen">
+    <div class="login-card">
+      <div class="login-logo">✦</div>
+      <h1>Persona</h1>
+      <p class="login-sub">Baris login</p>
+      <div class="user-btns" id="userBtns">
+        <button onclick="selectUser('baris', event)">Baris</button>
+      </div>
+      <div class="pw-form" id="pwForm">
+        <input type="password" id="pwInput" placeholder="Password"
+          autocomplete="off" onkeydown="if(event.key==='Enter')submitLogin()">
+        <button onclick="submitLogin()">Enter</button>
+      </div>
+      <p class="login-err" id="loginErr"></p>
+    </div>
+  </div>
+
+  <!-- Conversation History Sidebar -->
+  <div class="sidebar" id="conversationSidebar">
+    <div class="sidebar-header">
+      <h2>History</h2>
+      <button class="sidebar-close" onclick="toggleSidebar()">✕</button>
+    </div>
+    <div class="sidebar-content" id="sidebarContent">
+      <!-- Conversation items injected here -->
+    </div>
+  </div>
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+
+  <!-- App -->
+  <div class="app" id="app">
+    <header>
+      <button class="btn-icon" onclick="toggleSidebar()" title="History">📋</button>
+      <span class="header-title">✦ Persona</span>
+      <button class="btn-icon" id="settingsBtn" onclick="openSettingsModal()" title="Settings">⚙️</button>
+      <button class="user-pill" id="userPill"></button>
+    </header>
+
+    <!-- Context Bar -->
+    <div class="context-bar" id="contextBar" style="display: none;">
+      <span class="ctx-item" id="ctxMemories"></span>
+      <span class="ctx-item" id="ctxCalendar"></span>
+      <span class="ctx-item" id="ctxWeather"></span>
+      <button class="btn-icon" onclick="openConsolidationModal()" title="Consolidate memories">🔗</button>
+    </div>
+
+    <!-- Memory Timeline Strip -->
+    <div class="timeline-strip" id="timelineStrip" style="display: none;">
+      <!-- Memory pills injected here -->
+    </div>
+
+    <!-- Briefing Card -->
+    <div class="briefing-card" id="briefingCard">
+      <div class="briefing-header">
+        <div class="briefing-title">
+          <span class="briefing-icon">☀️</span>
+          <h2>While You Slept</h2>
+        </div>
+        <div class="briefing-date" id="briefingDate"></div>
+      </div>
+      
+      <div class="briefing-content" id="briefingContent">
+        <!-- Briefing markdown rendered here -->
+      </div>
+      
+      <div class="briefing-actions">
+        <button class="btn-secondary" onclick="regenerateBriefing()">🔄 Regenerate</button>
+        <button class="btn-primary" onclick="dismissBriefing()">Got it</button>
+      </div>
+    </div>
+
+    <div class="messages" id="messages"></div>
+
+    <div class="input-bar">
+      <label class="btn-icon" title="Upload file">
+        📎
+        <input type="file" id="fileInput" hidden onchange="uploadFile(event)">
+      </label>
+      <button class="btn-icon" id="webcamBtn" onclick="toggleWebcam()" title="Toggle webcam">👁️‍🗨️</button>
+      <textarea id="chatInput" placeholder="Ask anything…" rows="1"
+        onkeydown="handleKey(event)" oninput="autoResize(this)"></textarea>
+      <button class="btn-icon btn-voice" onclick="enterVoiceMode()" title="Voice mode"></button>
+      <button class="btn-icon btn-mic" id="micBtn" onclick="toggleMic()">🎤</button>
+      <button class="btn-send" id="sendBtn" onclick="sendMessage()">↑</button>
+    </div>
+  </div>
+
+  <!-- Switch User Modal -->
+  <div class="overlay" id="switchOverlay" onclick="closeSwitch()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <p class="modal-title">Switch user</p>
+      <div class="user-btns" id="switchUserBtns">
+        <button onclick="selectSwitchUser('baris')">Baris</button>
+      </div>
+      <div class="pw-form" id="switchPwForm">
+        <input type="password" id="switchPwInput" placeholder="Password"
+          autocomplete="off" onkeydown="if(event.key==='Enter')submitSwitch()">
+        <button onclick="submitSwitch()">Switch</button>
+      </div>
+      <p class="login-err" id="switchErr"></p>
+      <button class="btn-cancel" onclick="closeSwitch()">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Memory Detail Modal -->
+  <div class="overlay" id="memoryOverlay" onclick="closeMemoryModal()">
+    <div class="modal memory-modal" onclick="event.stopPropagation()">
+      <p class="modal-title" id="memoryModalTitle">Memory Detail</p>
+      <div class="memory-detail-content" id="memoryDetailContent">
+        <div class="memory-meta">
+          <span class="memory-type-badge" id="memoryTypeBadge"></span>
+          <span class="memory-date" id="memoryDate"></span>
+        </div>
+        <div class="memory-entity" id="memoryEntity" style="display: none;"></div>
+        <div class="memory-content" id="memoryContent"></div>
+      </div>
+      <div class="memory-actions">
+        <button class="btn-delete-memory" id="btnDeleteMemory" onclick="deleteCurrentMemory()">Delete Memory</button>
+        <button class="btn-cancel" onclick="closeMemoryModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Consolidation Modal -->
+  <div class="overlay" id="consolidationOverlay" onclick="closeConsolidationModal()">
+    <div class="modal consolidation-modal" onclick="event.stopPropagation()">
+      <p class="modal-title">Consolidate Memories</p>
+      <div class="consolidation-content" id="consolidationContent">
+        <!-- Candidate groups injected here -->
+      </div>
+      <div class="consolidation-actions">
+        <button class="btn-cancel" onclick="closeConsolidationModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="overlay" id="settingsOverlay" onclick="closeSettingsModal()">
+    <div class="modal settings-modal" onclick="event.stopPropagation()">
+      <div class="settings-header">
+        <h2>⚙️ Settings</h2>
+        <button class="modal-close" onclick="closeSettingsModal()">✕</button>
+      </div>
+      
+      <div class="settings-content">
+        <div class="setting-group">
+          <h3>Language</h3>
+          <div class="setting-options">
+            <label class="setting-option">
+              <input type="radio" name="language" value="tr" id="langTr">
+              <span>🇹🇷 Türkçe</span>
+            </label>
+            <label class="setting-option">
+              <input type="radio" name="language" value="de" id="langDe">
+              <span>🇩🇪 Deutsch</span>
+            </label>
+            <label class="setting-option">
+              <input type="radio" name="language" value="en" id="langEn">
+              <span>🇬🇧 English</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Morning Briefing</h3>
+          <div class="setting-row">
+            <label for="briefingTime">Briefing Time</label>
+            <input type="time" id="briefingTime" value="07:30">
+          </div>
+          <div class="setting-row">
+            <label class="setting-checkbox">
+              <input type="checkbox" id="briefingWeekends">
+              <span>Send briefing on weekends</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Notifications</h3>
+          <div class="setting-row">
+            <label class="setting-checkbox">
+              <input type="checkbox" id="notificationsEnabled">
+              <span>Enable Telegram notifications</span>
+            </label>
+          </div>
+        </div>
+        
+        <div class="setting-group">
+          <h3>Timezone</h3>
+          <div class="setting-row">
+            <select id="timezone">
+              <option value="Europe/Berlin">Europe/Berlin (CET/CEST)</option>
+              <option value="Europe/Istanbul">Europe/Istanbul (TRT)</option>
+              <option value="UTC">UTC</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      
+      <div class="settings-actions">
+        <button class="btn-secondary" onclick="closeSettingsModal()">Cancel</button>
+        <button class="btn-primary" onclick="saveSettings()">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Voice Mode Overlay -->
+  <div class="voice-overlay" id="voiceOverlay">
+    <button class="voice-close" onclick="exitVoiceMode()">✕</button>
+    <p class="voice-status" id="voiceStatus">Tap to speak</p>
+    <div class="voice-orb" id="voiceOrb" data-state="idle" onclick="handleOrbTap()">
+      <div class="orb-ring r1"></div>
+      <div class="orb-ring r2"></div>
+      <div class="orb-ring r3"></div>
+      <div class="orb-core"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

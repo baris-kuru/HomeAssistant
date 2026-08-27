@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000015",
+  "sequence_no": 15,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "Loves being petted",
+  "summary": "Loves being petted",
+  "content": "Loves being petted",
+  "memory_type": "long_term",
+  "entity": "nandi",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "baris"
+  }
+}

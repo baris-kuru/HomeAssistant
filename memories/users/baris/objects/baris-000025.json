@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000025",
+  "sequence_no": 25,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "Loves to travel. Has visited Egypt,...",
+  "summary": "Loves to travel. Has visited Egypt, Portugal, Greece, Morocco in recent years.",
+  "content": "Loves to travel. Has visited Egypt, Portugal, Greece, Morocco in recent years.",
+  "memory_type": "long_term",
+  "entity": "baris",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "baris"
+  }
+}

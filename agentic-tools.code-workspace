@@ -1,0 +1,65 @@
+{
+  "folders": [
+    {
+      "name": "Persona App",
+      "path": "."
+    },
+    {
+      "name": "Agentic Lab",
+      "path": "agentic-lab"
+    },
+    {
+      "name": "OpenCode Config",
+      "path": "/Users/bariskuru/.config/opencode"
+    },
+    {
+      "name": "OpenClaw",
+      "path": "/Users/bariskuru/.openclaw"
+    },
+    {
+      "name": "Codex",
+      "path": "/Users/bariskuru/.codex"
+    },
+    {
+      "name": "Claude Code",
+      "path": "/Users/bariskuru/.claude"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/.venv": true,
+      "**/.venv-agent-python": true,
+      "**/__pycache__": true,
+      "**/node_modules": true,
+      "**/*.sqlite": true,
+      "**/*.sqlite-shm": true,
+      "**/*.sqlite-wal": true,
+      "**/tmp": true,
+      "**/.tmp": true,
+      "**/cache": true
+    },
+    "search.exclude": {
+      "**/.venv": true,
+      "**/.venv-agent-python": true,
+      "**/__pycache__": true,
+      "**/node_modules": true,
+      "**/*.sqlite": true,
+      "**/*.sqlite-shm": true,
+      "**/*.sqlite-wal": true,
+      "**/tmp": true,
+      "**/.tmp": true,
+      "**/cache": true
+    },
+    "files.watcherExclude": {
+      "**/.venv/**": true,
+      "**/.venv-agent-python/**": true,
+      "**/__pycache__/**": true,
+      "**/node_modules/**": true,
+      "**/.codex/cache/**": true,
+      "**/.codex/tmp/**": true,
+      "**/.claude/cache/**": true,
+      "**/.openclaw/agents/**/sessions/**": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000032",
+  "sequence_no": 32,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "Profile Update: I am Baris Kuru,...",
+  "summary": "Profile Update: I am Baris Kuru, an AI engineer. I live and work in the Bonn/Berlin area. I have connected my iCloud calendar and my short-term self-care note i",
+  "content": "Profile Update: I am Baris Kuru, an AI engineer. I live and work in the Bonn/Berlin area. I have connected my iCloud calendar and my short-term self-care note is to use tea for my throat.",
+  "memory_type": "long_term",
+  "entity": "baris kuru",
+  "status": "active",
+  "created_at": "2026-04-15T16:22:38+00:00",
+  "updated_at": "2026-04-15T16:22:38+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "migration",
+    "saved_by_user_id": "baris",
+    "migrated_from_user_id": "6503433160",
+    "source_memory_id": "6503433160-000002"
+  }
+}

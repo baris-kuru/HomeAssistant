@@ -1,0 +1,10 @@
+Collecting bcrypt
+  Downloading bcrypt-5.0.0-cp39-abi3-macosx_10_12_universal2.whl (495 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 495.3/495.3 kB 5.5 MB/s eta 0:00:00
+Collecting PyJWT
+  Downloading pyjwt-2.12.1-py3-none-any.whl (29 kB)
+Installing collected packages: PyJWT, bcrypt
+Successfully installed PyJWT-2.12.1 bcrypt-5.0.0
+
+[notice] A new release of pip available: 22.3.1 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip

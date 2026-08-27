@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "5157607211-000001",
+  "sequence_no": 1,
+  "user_id": "5157607211",
+  "owner_user_id": "5157607211",
+  "allowed_user_ids": [
+    "5157607211"
+  ],
+  "title": "Lives in Ankara, Turkey",
+  "summary": "Lives in Ankara, Turkey",
+  "content": "Lives in Ankara, Turkey",
+  "memory_type": "long_term",
+  "entity": "self",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "5157607211"
+  }
+}

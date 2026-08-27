@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "fabi-000007",
+  "sequence_no": 7,
+  "user_id": "fabi",
+  "owner_user_id": "fabi",
+  "allowed_user_ids": [
+    "fabi"
+  ],
+  "title": "Tends to sleep in Fabi's room...",
+  "summary": "Tends to sleep in Fabi's room at night",
+  "content": "Tends to sleep in Fabi's room at night",
+  "memory_type": "long_term",
+  "entity": "nandi",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "fabi"
+  }
+}

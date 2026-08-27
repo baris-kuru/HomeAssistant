@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "fabi-000003",
+  "sequence_no": 3,
+  "user_id": "fabi",
+  "owner_user_id": "fabi",
+  "allowed_user_ids": [
+    "fabi"
+  ],
+  "title": "British Shorthair female, born April 2024,...",
+  "summary": "British Shorthair female, born April 2024, twin sister of Pixie",
+  "content": "British Shorthair female, born April 2024, twin sister of Pixie",
+  "memory_type": "long_term",
+  "entity": "nandi",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "fabi"
+  }
+}

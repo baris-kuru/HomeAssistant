@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "fabi-000013",
+  "sequence_no": 13,
+  "user_id": "fabi",
+  "owner_user_id": "fabi",
+  "allowed_user_ids": [
+    "fabi"
+  ],
+  "title": "Fabi is interested in painting with...",
+  "summary": "Fabi is interested in painting with gouache paints, drawing, and art in general.",
+  "content": "Fabi is interested in painting with gouache paints, drawing, and art in general.",
+  "memory_type": "long_term",
+  "entity": "fabi",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "fabi"
+  }
+}

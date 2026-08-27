@@ -1,0 +1,48 @@
+{
+  "long_term": [
+    "Usually wakes up around 7am",
+    "Likes morning coffee before anything else"
+  ],
+  "short_term": [],
+  "entities": {
+    "nandi": {
+      "long_term": [
+        "British Shorthair female, born April 2024, twin sister of Pixie",
+        "Larger of the two sisters",
+        "More timid and cautious by nature",
+        "Loves being petted and physical affection",
+        "Tends to sleep in Fabi's room at night"
+      ],
+      "short_term": []
+    },
+    "pixie": {
+      "long_term": [
+        "British Shorthair female, born April 2024, twin sister of Nandi",
+        "More energetic and intelligent of the two",
+        "Often follows Baris around the apartment"
+      ],
+      "short_term": []
+    },
+    "fabi": {
+      "long_term": [
+        "Fabi is doing a PhD in neurobiology at an institute in POM. She researches brain cells, specifically investigating what triggers autism at the molecular level.",
+        "Baris is Fabi's boyfriend (and housemate).",
+        "Fabi is interested in painting with gouache paints, drawing, and art in general.",
+        "Fabi really likes Van Gogh and expressionism.",
+        "Fabi loves miniature/tiny versions of objects, rooms, and buildings.",
+        "Fabi is drawn to pastel colors.",
+        "Fabi has a lot of plants and may send photos to ask about them.",
+        "Prefers living room temperature at 19°C",
+        "Fabi likes reading books, specifically horror books.",
+        "Fabi's MBTI type is INFP."
+      ],
+      "short_term": []
+    },
+    "baris": {
+      "long_term": [
+        "Baris works in Berlin but can work remotely, so he sometimes visits Fabi in Bonn and stays for a while."
+      ],
+      "short_term": []
+    }
+  }
+}

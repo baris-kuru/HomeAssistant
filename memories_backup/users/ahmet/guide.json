@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "user_id": "ahmet",
+  "title": "Memory guide for ahmet",
+  "allowed_user_ids": [
+    "ahmet"
+  ],
+  "next_memory_index": 1,
+  "memory_ids": [],
+  "active_memory_ids": [],
+  "files_by_id": {},
+  "indexes": {
+    "by_entity": {},
+    "by_type": {},
+    "by_date": {}
+  },
+  "counts": {
+    "total": 0,
+    "active": 0,
+    "deleted": 0
+  },
+  "updated_at": "2026-04-17T15:47:05+00:00"
+}

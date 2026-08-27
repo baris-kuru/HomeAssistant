@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "memory_id": "baris-000031",
+  "sequence_no": 31,
+  "user_id": "baris",
+  "owner_user_id": "baris",
+  "allowed_user_ids": [
+    "baris"
+  ],
+  "title": "Take care of throat with tea",
+  "summary": "Take care of throat with tea.",
+  "content": "Take care of throat with tea.",
+  "memory_type": "short_term",
+  "entity": "self-care",
+  "status": "active",
+  "created_at": "2026-04-15T16:22:38+00:00",
+  "updated_at": "2026-04-15T16:22:38+00:00",
+  "added_on": "2026-04-14",
+  "expires_on": "2026-04-21",
+  "source": {
+    "kind": "migration",
+    "saved_by_user_id": "baris",
+    "migrated_from_user_id": "6503433160",
+    "source_memory_id": "6503433160-000001"
+  }
+}

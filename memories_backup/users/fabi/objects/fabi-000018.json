@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "memory_id": "fabi-000018",
+  "sequence_no": 18,
+  "user_id": "fabi",
+  "owner_user_id": "fabi",
+  "allowed_user_ids": [
+    "fabi"
+  ],
+  "title": "Prefers living room temperature at 19°C",
+  "summary": "Prefers living room temperature at 19°C",
+  "content": "Prefers living room temperature at 19°C",
+  "memory_type": "long_term",
+  "entity": "fabi",
+  "status": "active",
+  "created_at": "2026-04-15T15:55:29+00:00",
+  "updated_at": "2026-04-15T15:55:29+00:00",
+  "added_on": "2026-04-15",
+  "expires_on": null,
+  "source": {
+    "kind": "chat",
+    "saved_by_user_id": "fabi"
+  }
+}
